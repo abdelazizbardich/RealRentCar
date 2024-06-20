@@ -129,7 +129,7 @@
             present your reservation invoice (digital or printed) and then pay and get your car</p>
         <div class="inv-header">
             <div>
-                <h2 style="color: #ff9b00">Real Rent Car</h2>
+                <h2 style="color: #ff9b00">{{ config('app.name') }}</h2>
                 <ul>
                     <li>DR ANABDOUR AMMELEN </li>
                     <li>TIZNIT</li>
