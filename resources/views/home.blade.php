@@ -8,7 +8,7 @@
             {{-- hero --}}
             <div class="flex justify-center md:py-28 py-12 mx-auto max-w-screen-xl">
                 <div class="flex  flex-col justify-center md:w-3/5  mx-12 md:ms-20 md:mx-0">
-                    <h1 class=" md:text-start text-center  font-car font-bold text-gray-900 mb-8  md:text-7xl text-4xl "><span class="text-pr-400"> EASY
+                    <h1 class=" md:text-start text-center   font-bold text-gray-900 mb-8  md:text-7xl text-4xl "><span class="text-pr-400"> EASY
                         </span>AND
                         FAST WAY TO RENT YOUR CAR</h1>
                     <div class="md:w-3/5 md:hidden  ">
@@ -40,7 +40,7 @@
             <div class="mx-auto max-w-screen-xl">
                 <div class="flex align-middle justify-center">
                     <hr class=" mt-8 h-0.5 w-2/5 bg-pr-500">
-                    <p class="my-2 mx-8  p-2 font-car font-bold text-pr-400 text-lg ">CARS</p>
+                    <p class="my-2 mx-8  p-2  font-bold text-pr-400 text-lg ">CARS</p>
                     <hr class=" mt-8 h-0.5 w-2/5 bg-pr-500">
                     <hr>
                 </div>
@@ -108,55 +108,14 @@
                     </div>
                 @endforeach
             </div>
-
-            {{-- Our numbers section --}}
-            <div class="mx-auto max-w-screen-xl mt-16 mb-32">
-                <div>
-                    <h2 class="text-center font-car text-3xl font-medium text-pr-400"> <span
-                            class=" text-gray-900">Our</span> Numbers</h2>
-                </div>
-                <div
-                    class="bg-gray-800 text-white  mt-6 rounded-md flex md:flex-row flex-col md:justify-evently items-center gap-6 md:gap-0  mx-16 max-w-screen-xl">
-
-                    <div
-                        class="flex justify-around md:w-1/3 text-center my-4 h-16 align-middle md:border-b-0 md:border-r-2 border-b-2 pb-4 border-white">
-                        <div class="flex flex-col justify-center">
-                            <h3 class="font-car font-medium text-4xl">80</h3>
-                            <p class="font-car  text-lg">Super Cars</p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex justify-around md:w-1/3 text-center my-4 h-16 align-middle md:border-b-0 md:border-r-2 border-b-2 pb-4 border-white">
-                        <div class="flex flex-col justify-center">
-                            <h3 class="font-car font-medium text-4xl">4500 + </h3>
-                            <p class="font-car  text-lg">Satisdied Client</p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex justify-around md:w-1/3 text-center my-4 h-16 align-middle  border-b-2 pb-4 border-white md:border-b-0">
-                        <div class="flex flex-col justify-center">
-                            <h3 class="font-car font-medium text-4xl">7000</h3>
-                            <p class="font-car  text-lg">Reservation</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
             {{-- Why us section  --}}
             <div class="mx-auto max-w-screen-xl ">
                 <div>
-                    <h2 class="text-center font-car text-3xl font-medium text-pr-400"> <span
+                    <h2 class="text-center  text-3xl font-medium text-pr-400"> <span
                             class=" text-gray-900">Why</span> Choose us</h2>
                 </div>
                 <div class="mt-7 mb-16">
-                    <p class="md:text-center text-xl text-justify mx-8 ">We
-                        prioritize your satisfaction and strive to make your car rental experience as seamless as possible.
-                        With our wide selection of well-maintained vehicles, competitive prices, and simple booking process,
-                        you can trust us to meet your needs. Our dedicated customer service team is available around the
-                        clock to assist you, ensuring that you receive the support you deserve. Whether you need a car for a
-                        weekend getaway or a long road trip, choose us for a hassle-free and enjoyable journey.</p>
+                    <p class="md:text-center text-xl text-justify mx-8 ">Choosing Marrakech Car Rental means opting for convenience, reliability, and exceptional service. We offer a diverse fleet of well-maintained vehicles at competitive rates, ensuring you find the perfect car for your needs. Our easy online booking system, 24/7 customer support, and flexible rental options make your experience seamless. Enjoy exploring Marrakech with confidence and comfort.</p>
                 </div>
 
                 <div
@@ -175,9 +134,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-car font-bold text-gray-900 text-2xl">Customer Support</h3>
-                            <p class="font-car text-gray-700 text-sm ">Our dedicated team is here to provide exceptional
-                                customer support whenever you need it.</p>
+                            <h3 class=" font-bold text-gray-900 text-2xl">Customer Support</h3>
+                            <p class=" text-gray-700 text-sm ">Our dedicated customer support team is available 24/7 to assist you with any questions or concerns, ensuring a smooth and stress-free rental experience.</p>
                         </div>
                     </div>
                     <div class="flex justify-center align-middle ">
@@ -194,9 +152,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-car font-bold text-gray-900 text-2xl">Super Cars</h3>
-                            <p class="font-car text-gray-700 text-sm "> Experience the thrill of driving our top-of-the-line
-                                supercars that are sure to leave a lasting impression.</p>
+                            <h3 class=" font-bold text-gray-900 text-2xl">Super Cars</h3>
+                            <p class=" text-gray-700 text-sm ">Experience luxury and performance with our selection of super cars, perfect for making your trip to Marrakech unforgettable.</p>
                         </div>
                     </div>
                     <div class="flex justify-center align-middle ">
@@ -213,9 +170,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-car font-bold text-gray-900 text-2xl">Free Cancelation</h3>
-                            <p class="font-car text-gray-700 text-sm "> Enjoy the flexibility of free cancellation, giving
-                                you peace of mind in case your plans change.</p>
+                            <h3 class=" font-bold text-gray-900 text-2xl">Free Cancelation</h3>
+                            <p class=" text-gray-700 text-sm ">Plans change? No worries! We offer free cancellation on all bookings, providing you with flexibility and peace of mind.</p>
                         </div>
                     </div>
                     <div class="flex justify-center align-middle ">
@@ -232,9 +188,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-car font-bold text-gray-900 text-2xl">Best Price</h3>
-                            <p class="font-car text-gray-700 text-sm ">We guarantee the best prices for our rental cars,
-                                ensuring you get the most value for your money.
+                            <h3 class=" font-bold text-gray-900 text-2xl">Best Price</h3>
+                            <p class=" text-gray-700 text-sm ">Get the best value for your money with our competitive rates and transparent pricing, ensuring you receive top-notch service without breaking the bank.
                             </p>
                         </div>
                     </div>
@@ -252,9 +207,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-car font-bold text-gray-900 text-2xl">Easy Process</h3>
-                            <p class="font-car text-gray-700 text-sm ">Our streamlined process makes renting a car quick
-                                and effortless, saving you time and hassle.
+                            <h3 class=" font-bold text-gray-900 text-2xl">Easy Process</h3>
+                            <p class=" text-gray-700 text-sm ">Enjoy a hassle-free rental experience with our simple and intuitive online booking system, allowing you to reserve your car in just a few clicks.
                             </p>
                         </div>
                     </div>
@@ -272,9 +226,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="font-car font-bold text-gray-900 text-2xl">Digital services</h3>
-                            <p class="font-car text-gray-700 text-sm ">Take advantage of our convenient digital services,
-                                making your car rental experience even more convenient and efficient.
+                            <h3 class=" font-bold text-gray-900 text-2xl">Digital services</h3>
+                            <p class=" text-gray-700 text-sm ">Take advantage of our digital services, including online booking, digital contracts, and real-time support, for a seamless and modern rental experience.
                             </p>
                         </div>
                     </div>
